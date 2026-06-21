@@ -1,0 +1,22 @@
+{
+  "name": "nepal-holidays",
+  "version": "1.0.0",
+  "description": "Nepal public holiday data, keyed by Bikram Sambat date",
+  "main": "scraper/scrape.js",
+  "scripts": {
+    "scrape": "node scraper/scrape.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anjan-NZ/nepal-holidays.git"
+  },
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/anjan-NZ/nepal-holidays/issues"
+  },
+  "homepage": "https://github.com/anjan-NZ/nepal-holidays#readme",
+  "dependencies": {
+    "cheerio": "^1.2.0"
+  }
+}

@@ -1,0 +1,573 @@
+{
+  "version": 1,
+  "holidays": [
+    {
+      "bsDate": "2082-01-01",
+      "name": "Nepali New Year/Mesh Sankranti/Biska Jatra"
+    },
+    {
+      "bsDate": "2082-01-18",
+      "name": "International Labour Day/Bungadyo : Rato Matsyandranath Rath Yatra Prambha"
+    },
+    {
+      "bsDate": "2082-01-24",
+      "name": "Provincial Government Official Language Day/Kirat Samaj Sudhar Diwas"
+    },
+    {
+      "bsDate": "2082-01-29",
+      "name": "Buddha Jayanti/Ubhauli Parwa/Chandeshwari Jatra/Chandi Poornima/Kurma Jayanti/Gorakhnath Jayanti/Poornima Vrata/Baisakh Snan Samapti/International Nurses Day"
+    },
+    {
+      "bsDate": "2082-02-15",
+      "name": "Republic Day"
+    },
+    {
+      "bsDate": "2082-02-18",
+      "name": "Bhoto jatra (Kathmandu Valley Only)/Sithi Nakha/Global Day Of Parents"
+    },
+    {
+      "bsDate": "2082-02-24",
+      "name": "Nirjala Ekadashi Vrata/Bakar Eid"
+    },
+    {
+      "bsDate": "2082-02-29",
+      "name": "Buddha Jayanti/Ubhauli Parwa/Chandeshwari Jatra/Chandi Poornima/Kurma Jayanti/Gorakhnath Jayanti/Poornima Vrata/Baisakh Snan Samapti/International Nurses Day"
+    },
+    {
+      "bsDate": "2082-04-24",
+      "name": "Janai Poornima/Rakshya Bandhan/Kwati Khane Din/Poornima Vrata/Rishi Tarpani/Sanskrit Diwas/International Day of the World's Indigenous Peoples/International Soil Conservation Day"
+    },
+    {
+      "bsDate": "2082-04-25",
+      "name": "Gaijatra(Bagmati Province only)"
+    },
+    {
+      "bsDate": "2082-04-31",
+      "name": "Shree Krishna Janmashtami/Gorakhkali Puja"
+    },
+    {
+      "bsDate": "2082-05-01",
+      "name": "Gen Z Protest (Mourning Day)/Bishwakarma Pooja/Indira Ekadashi Vrata/Ekadashi Shraddha/Kanya Sankranti/Wastu Diwas/National Science Day/World Patient Safety Day"
+    },
+    {
+      "bsDate": "2082-05-03",
+      "name": "Trayodashi Shraddha/Magha Shraddha/Sambidhan Diwas"
+    },
+    {
+      "bsDate": "2082-05-06",
+      "name": "Ghatasthaapana Vrata/Navaraatra Arambha"
+    },
+    {
+      "bsDate": "2082-05-10",
+      "name": "Haritalika Teej"
+    },
+    {
+      "bsDate": "2082-05-15",
+      "name": "Radha Janmotsav/Gaura Parva/Gorakhkali Puja/Durwashtami/National Library Day"
+    },
+    {
+      "bsDate": "2082-05-21",
+      "name": "Indra Jaatra/Ananta Chaturdashi Vrata"
+    },
+    {
+      "bsDate": "2082-05-30",
+      "name": "Nawami Shraddha/Jitiya Parva"
+    },
+    {
+      "bsDate": "2082-06-01",
+      "name": "Gen Z Protest (Mourning Day)/Bishwakarma Pooja/Indira Ekadashi Vrata/Ekadashi Shraddha/Kanya Sankranti/Wastu Diwas/National Science Day/World Patient Safety Day"
+    },
+    {
+      "bsDate": "2082-06-03",
+      "name": "Trayodashi Shraddha/Magha Shraddha/Sambidhan Diwas"
+    },
+    {
+      "bsDate": "2082-06-03",
+      "name": "Laxmi Pooja/Kukur Tihar/Laxmi Prasad Devkota Janma Jayanti/Narak Chaturdashi/Sukha Ratri"
+    },
+    {
+      "bsDate": "2082-06-04",
+      "name": "Tihar Holiday"
+    },
+    {
+      "bsDate": "2082-06-05",
+      "name": "Gobardan Puja/Gaigoru Puja/Mha Puja/Hali Tihar/Nepal Sambat 1146 Starts"
+    },
+    {
+      "bsDate": "2082-06-06",
+      "name": "Ghatasthaapana Vrata/Navaraatra Arambha"
+    },
+    {
+      "bsDate": "2082-06-06",
+      "name": "Bhai Tika/Kija Pooja"
+    },
+    {
+      "bsDate": "2082-06-07",
+      "name": "Tihar Holiday/UN day/World Development Information Day"
+    },
+    {
+      "bsDate": "2082-06-13",
+      "name": "Fulpati/World Heart Day"
+    },
+    {
+      "bsDate": "2082-06-14",
+      "name": "Maha Ashtami Vrata/Kalratri/y/Bhaumashtami Vrata"
+    },
+    {
+      "bsDate": "2082-06-15",
+      "name": "Maha Nawami Vrata/National Film Day/International Day of Older Persons"
+    },
+    {
+      "bsDate": "2082-06-16",
+      "name": "Bijaya Dashami/Devi Bisharjan/World Non Violence Day"
+    },
+    {
+      "bsDate": "2082-06-17",
+      "name": "Papakunsa Ekadashi Vrata/World Smile Day"
+    },
+    {
+      "bsDate": "2082-06-18",
+      "name": "Dashain Holiday/Shani Pradosh Vrata/World Animal Day"
+    },
+    {
+      "bsDate": "2082-06-30",
+      "name": "Nawami Shraddha/Jitiya Parva"
+    },
+    {
+      "bsDate": "2082-07-01",
+      "name": "Gen Z Protest (Mourning Day)/Bishwakarma Pooja/Indira Ekadashi Vrata/Ekadashi Shraddha/Kanya Sankranti/Wastu Diwas/National Science Day/World Patient Safety Day"
+    },
+    {
+      "bsDate": "2082-07-03",
+      "name": "Laxmi Pooja/Kukur Tihar/Laxmi Prasad Devkota Janma Jayanti/Narak Chaturdashi/Sukha Ratri"
+    },
+    {
+      "bsDate": "2082-07-04",
+      "name": "Tihar Holiday"
+    },
+    {
+      "bsDate": "2082-07-05",
+      "name": "Gobardan Puja/Gaigoru Puja/Mha Puja/Hali Tihar/Nepal Sambat 1146 Starts"
+    },
+    {
+      "bsDate": "2082-07-06",
+      "name": "Bhai Tika/Kija Pooja"
+    },
+    {
+      "bsDate": "2082-07-07",
+      "name": "Tihar Holiday/UN day/World Development Information Day"
+    },
+    {
+      "bsDate": "2082-07-10",
+      "name": "Chhath Parva"
+    },
+    {
+      "bsDate": "2082-07-19",
+      "name": "Poornima Vrata/Sakimana Punhi/Chaturmas Wrata Samapti/ Kartik Snan Samapti/Nimbarkacharya jayanti/Guru Nanak Jayanti"
+    },
+    {
+      "bsDate": "2082-07-25",
+      "name": "Falgunanda Jayanti"
+    },
+    {
+      "bsDate": "2082-08-10",
+      "name": "Christmas"
+    },
+    {
+      "bsDate": "2082-08-17",
+      "name": "International Day of Disabled Persons"
+    },
+    {
+      "bsDate": "2082-08-18",
+      "name": "Udhauli Parva/Yomari Punhi/Jyapu Diwas/Poornima Vrata/Dhanya Poornima"
+    },
+    {
+      "bsDate": "2082-09-01",
+      "name": "Makar Sankranti/Ghiu chaku khane Din/Uttarayan Arambha/National Yoga Day"
+    },
+    {
+      "bsDate": "2082-09-05",
+      "name": "Sonam Lhochhar/Shree Ballav Jayanti"
+    },
+    {
+      "bsDate": "2082-09-09",
+      "name": "Basanta Panchami vrata/Saraswati Pooja"
+    },
+    {
+      "bsDate": "2082-09-10",
+      "name": "Christmas"
+    },
+    {
+      "bsDate": "2082-09-15",
+      "name": "Tamu Lhosar/Kavi Siromani Lekhnath Jayanti/Putrada Ekadashi Vrata"
+    },
+    {
+      "bsDate": "2082-09-27",
+      "name": "Prithivi Jayanti/Rashtriya Ekata Diwas/Gorakhkali Puja"
+    },
+    {
+      "bsDate": "2082-10-01",
+      "name": "Makar Sankranti/Ghiu chaku khane Din/Uttarayan Arambha/National Yoga Day"
+    },
+    {
+      "bsDate": "2082-10-03",
+      "name": "Maha Shivaratri/Nepali Army Day/Silachahre Puja"
+    },
+    {
+      "bsDate": "2082-10-05",
+      "name": "Sonam Lhochhar/Shree Ballav Jayanti"
+    },
+    {
+      "bsDate": "2082-10-06",
+      "name": "Gyalpo Lhosar"
+    },
+    {
+      "bsDate": "2082-10-07",
+      "name": "Prajatantra Diwas/Start of Ramadan/Election Day"
+    },
+    {
+      "bsDate": "2082-10-09",
+      "name": "Basanta Panchami vrata/Saraswati Pooja"
+    },
+    {
+      "bsDate": "2082-10-16",
+      "name": "Sahid Diwas/Pradosh Vrata"
+    },
+    {
+      "bsDate": "2082-10-27",
+      "name": "Prithivi Jayanti/Rashtriya Ekata Diwas/Gorakhkali Puja"
+    },
+    {
+      "bsDate": "2082-11-03",
+      "name": "Maha Shivaratri/Nepali Army Day/Silachahre Puja"
+    },
+    {
+      "bsDate": "2082-11-04",
+      "name": "Ghode Jaatra"
+    },
+    {
+      "bsDate": "2082-11-06",
+      "name": "Gyalpo Lhosar"
+    },
+    {
+      "bsDate": "2082-11-07",
+      "name": "Prajatantra Diwas/Start of Ramadan/Election Day"
+    },
+    {
+      "bsDate": "2082-11-07",
+      "name": "Eid Ul Fitr/Gauri Vrata/Matsya Jayanti Wrata/World Poetry Day"
+    },
+    {
+      "bsDate": "2082-11-18",
+      "name": "Fagu Poornima / Holi/Poornima Vrata"
+    },
+    {
+      "bsDate": "2082-11-19",
+      "name": "Fagu Poornima (Terai)/Khandagras Chandra Grahan/World Wildlife Day"
+    },
+    {
+      "bsDate": "2082-11-20",
+      "name": "Holiday for Election 2082/Tel Lagaune Ra Aapko Mujura Khane Din"
+    },
+    {
+      "bsDate": "2082-11-21",
+      "name": "House of Representatives Election 2082"
+    },
+    {
+      "bsDate": "2082-11-22",
+      "name": "Holiday for Election 2082"
+    },
+    {
+      "bsDate": "2082-11-24",
+      "name": "International Womens Day"
+    },
+    {
+      "bsDate": "2082-12-01",
+      "name": "Mesh Sankranti/Nepali New Year/Biska Jatra"
+    },
+    {
+      "bsDate": "2082-12-04",
+      "name": "Ghode Jaatra"
+    },
+    {
+      "bsDate": "2082-12-07",
+      "name": "Eid Ul Fitr/Gauri Vrata/Matsya Jayanti Wrata/World Poetry Day"
+    },
+    {
+      "bsDate": "2082-12-13",
+      "name": "Shree Ram Nawami Vrata/World Theater Day"
+    },
+    {
+      "bsDate": "2083-01-01",
+      "name": "Mesh Sankranti/Nepali New Year/Biska Jatra"
+    },
+    {
+      "bsDate": "2083-01-18",
+      "name": "Buddha Jayanti/Ubhauli Parwa/Chandeshwari Jatra/Chandi Poornima/Gorakhnath Jayanti/Kurma Jayanti/Baisakh Snan Samapti/International Labour Day"
+    },
+    {
+      "bsDate": "2083-02-06",
+      "name": "Bhoto Jatra/Sithi Nakha/Kumarsasthi/World Refugee Day"
+    },
+    {
+      "bsDate": "2083-02-14",
+      "name": "Bakar Eid/Pradosh Vrata"
+    },
+    {
+      "bsDate": "2083-02-15",
+      "name": "Republic Day/International Everest Day"
+    },
+    {
+      "bsDate": "2083-03-06",
+      "name": "Bhoto Jatra/Sithi Nakha/Kumarsasthi/World Refugee Day"
+    },
+    {
+      "bsDate": "2083-05-03",
+      "name": "Sambidhan Diwas/Radha Janmotsav/Gorakhkali Puja"
+    },
+    {
+      "bsDate": "2083-05-09",
+      "name": "Indra Jaatra/Ananta Chaturdashi Vrata/World Pharmacists Day"
+    },
+    {
+      "bsDate": "2083-05-12",
+      "name": "Janai Poornima/Rakshya Bandhan/Poornima Vrata/Kwati Khane Din/Rishi Tarpani/Sanskrit Diwas"
+    },
+    {
+      "bsDate": "2083-05-13",
+      "name": "Gaijatra/International Day Against Nuclear Tests"
+    },
+    {
+      "bsDate": "2083-05-19",
+      "name": "Shree Krishna Janmashtami/Gaura Parva/Gorakhkali Puja/Durwashtami"
+    },
+    {
+      "bsDate": "2083-05-29",
+      "name": "Haritalika Teej/Ganesh Chaturthi Varta/Rashtriya Dharmasabha Diwas/Rashtriya Bal Diwas"
+    },
+    {
+      "bsDate": "2083-06-01",
+      "name": "Tula SankrantiDhan/Maha Ashtami Vrata/Kalratri/Gorakhkali Puja"
+    },
+    {
+      "bsDate": "2083-06-02",
+      "name": "Dashain Holiday"
+    },
+    {
+      "bsDate": "2083-06-03",
+      "name": "Sambidhan Diwas/Radha Janmotsav/Gorakhkali Puja"
+    },
+    {
+      "bsDate": "2083-06-03",
+      "name": "Maha Nawami Vrata"
+    },
+    {
+      "bsDate": "2083-06-04",
+      "name": "Bijaya Dashami/Devi Bisharjan"
+    },
+    {
+      "bsDate": "2083-06-05",
+      "name": "Papakunsa Ekadashi Vrata"
+    },
+    {
+      "bsDate": "2083-06-06",
+      "name": "Dashain Holiday/Pradosh Vrata"
+    },
+    {
+      "bsDate": "2083-06-09",
+      "name": "Indra Jaatra/Ananta Chaturdashi Vrata/World Pharmacists Day"
+    },
+    {
+      "bsDate": "2083-06-18",
+      "name": "Nawami Shraddha/Jitiya Parva/World Animal Day"
+    },
+    {
+      "bsDate": "2083-06-25",
+      "name": "Ghatasthaapana Vrata/Navaraatra Arambha"
+    },
+    {
+      "bsDate": "2083-06-29",
+      "name": "Haritalika Teej/Ganesh Chaturthi Varta/Rashtriya Dharmasabha Diwas/Rashtriya Bal Diwas"
+    },
+    {
+      "bsDate": "2083-06-31",
+      "name": "Fulpati/Dashain Holiday/International Day for the Eradication of Poverty"
+    },
+    {
+      "bsDate": "2083-07-01",
+      "name": "Tula SankrantiDhan/Maha Ashtami Vrata/Kalratri/Gorakhkali Puja"
+    },
+    {
+      "bsDate": "2083-07-02",
+      "name": "Dashain Holiday"
+    },
+    {
+      "bsDate": "2083-07-03",
+      "name": "Maha Nawami Vrata"
+    },
+    {
+      "bsDate": "2083-07-04",
+      "name": "Bijaya Dashami/Devi Bisharjan"
+    },
+    {
+      "bsDate": "2083-07-05",
+      "name": "Papakunsa Ekadashi Vrata"
+    },
+    {
+      "bsDate": "2083-07-06",
+      "name": "Dashain Holiday/Pradosh Vrata"
+    },
+    {
+      "bsDate": "2083-07-08",
+      "name": "Kartik Snan Samapti/Chaturmas Vrata Samapti/Guru Nanak Jayanti/Nimbarkacharya Jayanti/Sakimana Punhi"
+    },
+    {
+      "bsDate": "2083-07-22",
+      "name": "Laxmi Pooja/Laxmi Prasad Devkota Janma Jayanti/Kukur Tihar/Narak Chaturdashi/Sukha Ratri/World Radiography Day"
+    },
+    {
+      "bsDate": "2083-07-23",
+      "name": "Tihar Holiday/Gai Puja/World Freedom Day"
+    },
+    {
+      "bsDate": "2083-07-24",
+      "name": "Gobardan Puja/Mha Puja/Hali Tihar/Nepal Sambat 1147 Starts/Goru Puja/World Science Day for Peace and Development"
+    },
+    {
+      "bsDate": "2083-07-25",
+      "name": "Bhai Tika/Kija Pooja/Falgunanda Jayanti"
+    },
+    {
+      "bsDate": "2083-07-26",
+      "name": "Tihar Holiday/World Pneumonia Day"
+    },
+    {
+      "bsDate": "2083-07-29",
+      "name": "Chhath Parva"
+    },
+    {
+      "bsDate": "2083-08-01",
+      "name": "Tula SankrantiDhan/Maha Ashtami Vrata/Kalratri/Gorakhkali Puja"
+    },
+    {
+      "bsDate": "2083-08-08",
+      "name": "Kartik Snan Samapti/Chaturmas Vrata Samapti/Guru Nanak Jayanti/Nimbarkacharya Jayanti/Sakimana Punhi"
+    },
+    {
+      "bsDate": "2083-08-09",
+      "name": "Dhanya Poornima/Udhauli Parva/Yomari Punhi/Jyapu Diwas"
+    },
+    {
+      "bsDate": "2083-08-10",
+      "name": "Christmas Day"
+    },
+    {
+      "bsDate": "2083-08-17",
+      "name": "International Day of Disabled Persons"
+    },
+    {
+      "bsDate": "2083-08-18",
+      "name": "Udhauli Parva/Utpatika Ekadashi Vrata"
+    },
+    {
+      "bsDate": "2083-08-29",
+      "name": "Chhath Parva"
+    },
+    {
+      "bsDate": "2083-09-01",
+      "name": "Makar Sankranti/Makar Snan Arambha/Ghiu chaku khane Din/Uttarayan Arambha"
+    },
+    {
+      "bsDate": "2083-09-09",
+      "name": "Dhanya Poornima/Udhauli Parva/Yomari Punhi/Jyapu Diwas"
+    },
+    {
+      "bsDate": "2083-09-10",
+      "name": "Christmas Day"
+    },
+    {
+      "bsDate": "2083-09-15",
+      "name": "Tamu Lhosar/Kavi Siromani Lekhnath Jayanti"
+    },
+    {
+      "bsDate": "2083-09-27",
+      "name": "Prithivi Jayanti/Rashtriya Ekata Diwas"
+    },
+    {
+      "bsDate": "2083-10-01",
+      "name": "Makar Sankranti/Makar Snan Arambha/Ghiu chaku khane Din/Uttarayan Arambha"
+    },
+    {
+      "bsDate": "2083-10-07",
+      "name": "Prajatantra Diwas/Election Day"
+    },
+    {
+      "bsDate": "2083-10-16",
+      "name": "Sahid Diwas"
+    },
+    {
+      "bsDate": "2083-10-24",
+      "name": "Sonam Lhochhar"
+    },
+    {
+      "bsDate": "2083-10-27",
+      "name": "Prithivi Jayanti/Rashtriya Ekata Diwas"
+    },
+    {
+      "bsDate": "2083-10-28",
+      "name": "Basanta Panchami vrata/Saraswati Pooja"
+    },
+    {
+      "bsDate": "2083-11-07",
+      "name": "Prajatantra Diwas/Election Day"
+    },
+    {
+      "bsDate": "2083-11-22",
+      "name": "Maha Shivaratri/Nepali Army Day/Silachahre Puja"
+    },
+    {
+      "bsDate": "2083-11-24",
+      "name": "Sonam Lhochhar"
+    },
+    {
+      "bsDate": "2083-11-24",
+      "name": "International Women's Day"
+    },
+    {
+      "bsDate": "2083-11-25",
+      "name": "Gyalpo Lhosar"
+    },
+    {
+      "bsDate": "2083-11-28",
+      "name": "Basanta Panchami vrata/Saraswati Pooja"
+    },
+    {
+      "bsDate": "2083-12-01",
+      "name": "Nepali New Year"
+    },
+    {
+      "bsDate": "2083-12-07",
+      "name": "Fagu Poornima / Holi/World Poetry Day"
+    },
+    {
+      "bsDate": "2083-12-08",
+      "name": "Fagu Poornima (Terai)/World Water Day"
+    },
+    {
+      "bsDate": "2083-12-23",
+      "name": "Ghode Jaatra"
+    },
+    {
+      "bsDate": "2084-01-01",
+      "name": "Nepali New Year"
+    },
+    {
+      "bsDate": "2084-08-18",
+      "name": "Udhauli Parva"
+    },
+    {
+      "bsDate": "2084-12-01",
+      "name": "Nepali New Year"
+    }
+  ]
+}
