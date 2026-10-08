@@ -22,7 +22,10 @@ function approxBsYear(date = new Date()) {
 async function fetchMonth(year, month) {
   const url = `${BASE_URL}/${year}/${month}`;
   const res = await fetch(url, {
-    headers: { "User-Agent": "Mozilla/5.0 (compatible; nepal-holidays-scraper/1.0)" },
+    headers: { "User-Agent":
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+    Accept: "text/html,application/xhtml+xml",
+    "Accept-Language": "en-US,en;q=0.9" },
   });
   if (!res.ok) throw new Error(`${url} -> HTTP ${res.status}`);
   return res.text();
@@ -87,21 +90,32 @@ async function main() {
   const candidateYears = explicitYear ? [explicitYear] : [approxBsYear(), approxBsYear() + 1];
 
   const existing = loadExisting();
-  const untouched = existing.holidays.filter(
-    (h) => !candidateYears.includes(Number(h.bsDate.split("-")[0])),
-  );
 
   const fresh = [];
+  const scrapedYears = [];
   for (const year of candidateYears) {
     console.log(`Trying ${year} BS...`);
     const holidays = await tryScrapeYear(year);
     if (holidays) {
       console.log(`  -> ${holidays.length} entries`);
       fresh.push(...holidays);
+      scrapedYears.push(year);
     } else {
       console.log(`  -> not available yet, leaving existing data (if any) untouched`);
     }
   }
+
+  // Nothing came back at all, most likely the site is blocking us. Fail loudly instead of
+  // quietly committing nothing, so the Actions run goes red and someone notices.
+  if (scrapedYears.length === 0) {
+    console.error("No year could be scraped, not touching holidays.json");
+    process.exit(1);
+  }
+
+  // Only replace years we actually got fresh data for.
+  const untouched = existing.holidays.filter(
+    (h) => !scrapedYears.includes(Number(h.bsDate.split("-")[0])),
+  );
 
   const combined = [...untouched, ...fresh];
   const deduped = Array.from(
