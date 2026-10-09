@@ -20,7 +20,7 @@ Nepal public holiday data, keyed by Bikram Sambat date. Consumed by [NePad](http
 
 ## Source
 
-Scraped from [english.hamropatro.com](https://english.hamropatro.com). Not the government's official holiday list, just what that site marks as notable days (festivals, tithi-based events, etc). MoHA publishes the real list as a PDF every year, no structured source for that exists.
+Scraped from [hamropatro.com](https://www.hamropatro.com/en/calendar). Only events that site marks as holidays are included, not every observance. It is not the government's official holiday list: MoHA publishes that as a PDF every year, and no structured source for it exists.
 
 Verify exact dates yourself for anything that actually matters (compliance deadlines, bank holidays).
 
@@ -31,6 +31,6 @@ npm install
 npm run scrape
 ```
 
-By default, scrapes the current BS year plus the next one and merges the result into `holidays.json`, leaving other years untouched. No yearly maintenance needed: once hamropatro publishes next year's calendar, the next scheduled run picks it up on its own. Pass a specific year as an argument (`npm run scrape -- 2085`) to (re)scrape just that one.
+By default, scrapes the current BS year plus the next one and merges the result into `holidays.json`, leaving other years untouched. No yearly maintenance needed: once hamropatro publishes next year's calendar, the next scheduled run picks it up on its own. Pass one or more years as arguments (`npm run scrape -- 2085`) to (re)scrape just those. A year that can't be fetched is kept as it was, never dropped.
 
 A GitHub Actions workflow (`.github/workflows/scrape.yml`) runs this monthly and commits any changes automatically.
